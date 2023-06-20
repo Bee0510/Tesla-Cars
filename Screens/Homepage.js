@@ -14,6 +14,7 @@ const Homepage = () => {
   }, []);
   return (
     <SafeAreaView>
+      <StatusBar style="auto" />
       <Car_Details />
     </SafeAreaView>
   );

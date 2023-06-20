@@ -6,3 +6,5 @@ export { default as ModelX } from "./ModelX.jpeg";
 export { default as ModelY } from "./ModelY.jpeg";
 export { default as SolarPanels } from "./SolarPanels.jpeg";
 export { default as SolarRoof } from "./SolarRoof.jpeg";
+export { default as Carpng } from "./car.png";
+export { default as Climate } from "./climate.png";
