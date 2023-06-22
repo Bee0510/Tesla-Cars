@@ -1,17 +1,12 @@
 import { View, Text, Touchable, TouchableOpacity } from "react-native";
 import React, { useState } from "react";
 import {
-  LockClosedIcon,
-  BoltIcon,
-  FireIcon,
-  LightBulbIcon,
-} from "react-native-heroicons/solid";
-import {
   FontAwesome5,
   MaterialCommunityIcons,
   Entypo,
   Ionicons,
 } from "@expo/vector-icons";
+
 const Headfunctions = () => {
   const [iconColor, setIconColor] = useState("yellow");
   const [icon, setIcon] = useState("lock");
@@ -26,7 +21,7 @@ const Headfunctions = () => {
   };
 
   const [fanColor, setFanColor] = useState("white");
-  const [fanicon, setFanIcon] = useState("fan");
+  const [fanicon, setFanIcon] = useState("fan-off");
   const handleIconFan = () => {
     if (fanicon === "fan") {
       setFanIcon("fan-off");
@@ -38,7 +33,7 @@ const Headfunctions = () => {
   };
 
   const [lightColor, setLightColor] = useState("yellow");
-  const [lighticon, setLightIcon] = useState("lightning-bolt");
+  const [lighticon, setLightIcon] = useState("lightning-bolt-outline");
   const handleIconLight = () => {
     if (lighticon === "lightning-bolt") {
       setLightIcon("lightning-bolt-outline");
