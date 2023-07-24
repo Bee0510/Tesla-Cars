@@ -2,7 +2,7 @@ export default [
   {
     name: "Controls",
     iconName: "car",
-    href: "/controls",
+    href: "Control",
   },
   {
     name: "Climate",
@@ -12,17 +12,17 @@ export default [
   {
     name: "Location",
     iconName: "map-marker",
-    href: "/location",
+    href: "Location",
   },
   {
     name: "Summon",
     iconName: "ship-wheel",
-    href: "/summon",
+    href: "Summon",
   },
   {
     name: "Security",
     iconName: "shield-check",
-    href: "/security",
+    href: "Security",
   },
   {
     name: "Update",

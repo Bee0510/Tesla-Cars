@@ -24,7 +24,7 @@ const Features = () => {
         showsVerticalScrollIndicator={false}
         data={data}
         renderItem={({ item }) => (
-          <Pressable onPress={() => navigation.navigate(`${item.href}`)}>
+          <TouchableOpacity onPress={() => navigation.navigate(`${item.href}`)}>
             <View className="flex-row justify-between w-screen p-4">
               <View className="flex-row justify-between gap-x-5">
                 <MaterialCommunityIcons
@@ -42,7 +42,7 @@ const Features = () => {
                 color="gray"
               />
             </View>
-          </Pressable>
+          </TouchableOpacity>
         )}
       />
     </View>

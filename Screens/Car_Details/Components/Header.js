@@ -13,7 +13,7 @@ const CarHeader = () => {
         </View>
         <Text className="font-bold text-base text-gray-400">Parked</Text>
       </View>
-      <UserCircleIcon size={40} color={"gray"} />
+      <UserCircleIcon size={50} color={"gray"} />
     </View>
   );
 };
